@@ -1,2 +1,2 @@
 # bootcampnov2
-Normal basdf
+permalink: /index.html
