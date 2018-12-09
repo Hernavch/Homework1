@@ -34,7 +34,7 @@ header{
     float:right;
     /* height:80px; */
     margin-top:30px;
-    margin-right:20px;
+    margin-right:160px;
 
 }
 
@@ -57,7 +57,7 @@ ul li {
     background-color:#4aaaa5;
     padding:20px;
     color:#ffffff;
-    margin-left:150px;
+    margin-left:20%;
     margin-top:0px;
     margin-bottom:2px;
     /* position: absolute; */
@@ -74,10 +74,13 @@ ul li {
 .container{
     background-color:#ffffff;
     /* padding-block-end: 90px; */
-    margin-left:150px;
-    margin-right:150px;
-    margin-top: 115px;
-    margin-bottom:100px;
+    /* margin-left:150px;
+    margin-right:150px; */
+    margin-top: 5%;
+    margin-bottom:10%;
+    margin-left:20%;
+    margin-right:20%;
+    padding-bottom: 0px;
     padding:30px;
 }
 
@@ -101,7 +104,7 @@ h2 {
     
     border-color:#888888;
     border-bottom:solid;
-    border-block-end-width: 20px;
+    /* border-block-end-width: 20px; */
     border-length: 80%;
     margin-bottom: 10px;
 }
@@ -110,20 +113,20 @@ p {
     text-align: left;
     display:block;
     color:#777777;
-    margin:100px;
+    margin:5%;
 
 
 }
-/* .main-bio{
+ .main-bio{
     margin-bottom:20px;
-    border-bottom:solid;
+    /* border-bottom:solid;
     border-color:#777777;
-    border-width: thin;
-} */
+    border-width: thin; */
+} 
 .main-image {
  float:left;
  margin-right:20px;
- padding-bottom:50px;
+ padding-bottom:5px;
  padding-left:25px;
 }
 
@@ -152,8 +155,10 @@ footer{
    input, select, textarea {
     width: 100%; 
     padding: 12px;   
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
+    border-width: thin;
+    border-style: solid;
+    border-color:#777777; 
+    border-radius: 0px;  
     box-sizing: border-box;
     margin-top: 6px; 
     margin-bottom: 16px; 
@@ -162,27 +167,58 @@ footer{
   
   [type=submit] {
     background-color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18;
+    font-weight: bold;
+
+    width:150px;
     color: white;
     padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    /* border: none;
+    border-radius: 4px; */
     
   }
   
  
    .contactform {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 10px;
-    margin:100px;
-    margin-top:75px;
+    margin:0px;
   }
+/* contact me form end */
+
+  /* Portfolio page */
+
+.banner{
+    padding: 20px;
+
+    
+    background-color: #4aaaa5;
+    color:#ffffff;
+}
+.row{
+    display:flex;
+    flex: wrap;
+    margin:5%;
+
+}
+
+.column{
+    flex: 33%;
+    margin-bottom: 10%;
+    
+
+}
+
 
   /* Portfolio images */
-  .sunset{
+
+    .sunset{
       width:200px;
       height:200px;
   }
   .dog{
       width:200px;
   }
+  
