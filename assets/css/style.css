@@ -192,21 +192,31 @@ footer{
 
 .banner{
     padding: 20px;
-
-    
     background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     color:#ffffff;
+    width:160px;
+    position: absolute;
+    bottom:20px;
+    text-align: center;
 }
 .row{
     display:flex;
+    width:100px;
     flex: wrap;
-    margin:5%;
+    margin:0;
+    justify-content: space-between|;
 
 }
 
 .column{
-    flex: 33%;
-    margin-bottom: 10%;
+    flex: 20px;
+    /* margin-bottom: 1; */
+    position: relative;
+    margin:10px;
+    /* margin-left:20px; */
+    padding:10px;
     
 
 }
@@ -219,6 +229,7 @@ footer{
       height:200px;
   }
   .dog{
-      width:200px;
+       width:200px;
+       height:200px; 
   }
   
